@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<#assign base=request.contextPath />
+<base id="base" href="${base}">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="${base}/css/rightBottomTip.css" />
+<title>websocket</title>
+</head>
+<body style="height:2000px">
+
+
+websocket消息队列
+
+
+<div id="PcPoPmarket" class="PcPoPmarket">
+
+	<div id="popTop" class="popTop">
+		<h2>我是消息</h2>
+		<span class="popBtn popClose" ></span>
+	</div>
+  
+	<div class="poplist">
+		<ul>
+			<li><span id="content"></span></li>
+		</ul>
+	</div>
+		
+</div>
+<script type="text/javascript" src="${base}/js/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="${base}/js/sockjs-0.3.4.min.js"></script>
+<script type="text/javascript" src="${base}/js/stomp.js"></script>
+<script type="text/javascript" src="${base}/js/index.js"></script>
+</body>
+</html>
